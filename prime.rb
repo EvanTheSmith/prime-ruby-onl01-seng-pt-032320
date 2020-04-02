@@ -1,8 +1,11 @@
 def prime?(number)
   if number < 2
     return false
-  else
-    (2..number).none? do |factor|
+  elsif number == 2
+    return true
+    else
+    array = (2..number).to_a
+    array.none? do |factor|
     number % factor == 0
     end
   end
