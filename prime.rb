@@ -1,5 +1,3 @@
 def prime?(number)
-  factor = 2
-  while factor <= sqrt(number)
-  
+  if number < 0
 end
