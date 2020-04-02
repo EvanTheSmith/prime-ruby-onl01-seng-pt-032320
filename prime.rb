@@ -3,6 +3,7 @@ def prime?(number)
     return false
   else
     array = (2..number).to_a
-    array.  
+    array.none? do |factor|
+    end
   end
 end
