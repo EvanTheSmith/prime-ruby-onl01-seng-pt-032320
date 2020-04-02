@@ -4,5 +4,6 @@ def prime?(number)
   else
     (2..number).none? do |factor|
     number % factor == 0
+    end
   end
 end
