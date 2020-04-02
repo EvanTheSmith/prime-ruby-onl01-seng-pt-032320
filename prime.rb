@@ -1,5 +1,5 @@
 def prime?(number)
-  if number < 0
+  if number < 2
     return false
   else
     (2..number).none? do |factor|
